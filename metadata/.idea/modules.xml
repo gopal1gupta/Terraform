@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Dynamodb/.idea/Dynamodb.iml" filepath="$PROJECT_DIR$/../Dynamodb/.idea/Dynamodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../IAM_User/.idea/IAM_User.iml" filepath="$PROJECT_DIR$/../IAM_User/.idea/IAM_User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../S3/.idea/S3.iml" filepath="$PROJECT_DIR$/../S3/.idea/S3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/metadata.iml" filepath="$PROJECT_DIR$/.idea/metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" />
+    </modules>
+  </component>
+</project>
