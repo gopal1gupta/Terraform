@@ -1,0 +1,12 @@
+
+## below commands will be useful when we have backend block activated
+terraform state list ----> it will list all the resources in the state file
+
+terraform state show resource_name ----> details resources
+
+terraform state mv source destination ---->it can also be used to rename
+
+terraform state pull source destination ---> if we use backend than state file will not be stored in local system so to view
+                                            ## the content to state file you can use pull command
+
+terraform state rm address ----> remove items from the state file :: note it will not destroy from the real world

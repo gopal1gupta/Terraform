@@ -1,0 +1,35 @@
+1. terraform console ---> wil open interactive terminal
+  > min(1,2,3)
+  > max(1,2,3,4)
+
+2. toset() ---->convert list into set which will not contains duplicate values
+
+3. split(",","abc,fg,hsj,jdkj") ---> first one is separator and second argument where it will be appliued
+output: ["abc","fg","hsj","jdkj"] --->it is a list
+
+4. lower("HDHHDHJJF")
+
+5. upper("kjffhdl")
+
+6. title("sjjk") -----> it will convert the first letter in upper case
+
+7. substr("abcdefghi",0,3) ---->(string,offset or index),length)
+output: abcd
+
+substr("abcdefghi",5,3)
+output : fgh
+
+8. join(",",["abc","def","ghi"]
+output: "abc,def,ghi"
+
+9. length(list) ----> lenght of the elements in list
+
+10. index([a,b,c,d,e],c)
+output: 2
+
+11. element([a,b,c,d,e],4)
+output: e
+
+12. contains(list, "gopal") ---->return true if the element gopal is present else false
+
+13. lookup() ----> lookup for mapping function

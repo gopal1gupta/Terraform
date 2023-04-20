@@ -1,0 +1,14 @@
+we can use environment variable to stores logs:
+
+export TF_LOG=TRACE  ---> it provides more detailed info
+
+## Inplace of trace we can use different log level
+INFO
+WARNING
+ERROR
+DEBUG
+TRACE
+
+export TF_LOG_PATH=/tmp/terraform.log ---> to store the logs in a file
+
+unset TF_LOG_PATH ---> TO DISABLE LOGGING

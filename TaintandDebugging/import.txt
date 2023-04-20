@@ -1,0 +1,25 @@
+Terraform can import existing infrastructure resources.
+This functionality lets you bring existing resources under Terraform management.
+
+Getting the pre-existing cloud resources under the Terraform management is facilitated by Terraform import.
+import is a Terraform CLI command which is used to read real-world infrastructure and update the state,
+so that future updates to the same set of infrastructure can be applied via IaC.
+
+The import functionality helps update the state locally and it does not create the corresponding configuration
+automatically. However, the Terraform team is working hard to improve this function in upcoming releases.
+
+syntax:
+terraform import <resource_type>.<resource_name> <attribute>
+terraform import aws_instance.webserver instanceid
+
+note when we run above command for the first time it will update the state file
+but it will fail to create resource in configuration file so we have to manaully add the resource block for this
+
+resource "aws_instance" "webserver"{
+}
+
+now rerun the import command it will run succesfully
+
+now run the terraform apply command
+it throw and error so
+you have to modify the resource block and add the required arguments

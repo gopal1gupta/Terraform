@@ -1,0 +1,9 @@
+The terraform taint command informs Terraform that a particular object has become degraded or damaged.
+Terraform represents this by marking the object as "tainted" in the Terraform state,
+and Terraform will propose to replace it in the next plan you create
+
+suppose someone changes the configuration from the console and if u run terraform plan then it will show tainted
+you can untaint that so that it wont be created again
+commands:
+terraform taint aws_resource.name
+terraform untaint aws_resource.name
